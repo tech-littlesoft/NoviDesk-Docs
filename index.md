@@ -94,12 +94,44 @@ title: NoviDesk 桌面工作站 · 官方主页
 <p class="en">Our top recommended shortcuts to get the most out of NoviDesk:</p>
 
 <ul class="tips">
-  <li><b>呼出 / 收起：</b>鼠标移到屏幕左下角自动滑出，移开自动隐藏——全程零点击。</li>
-  <li><b>卡片换位：</b>拖动面板标题栏即可与其它面板交换位置，10 秒搞定你的专属布局。</li>
-  <li><b>秒进分屏：</b>在文件夹<b>名称</b>上双击即进入左右分屏，左侧导航右侧预览，再点左侧退出。</li>
-  <li><b>拖拽即复制 / 移动：</b>把文件拖进卡片 = 复制，跨面板拖拽 = 移动，免右键。</li>
-  <li><b>原生菜单：</b>文件上右键即唤出系统 Explorer 菜单，所有 Shell 操作一键可达。</li>
-  <li><b>时光收纳：</b>新文件自动按时间归集，无需手动建日期文件夹。</li>
-  <li><b>一键换肤：</b>主菜单切换深 / 浅主题并记忆，护眼亮屏随心。</li>
-  <li><b>单选 / 多选：</b>设置面板切换单文件夹或多文件夹聚合，灵活掌控面板内容。</li>
+  <li>
+    <b>呼出 / 收起 · Show / Hide</b>
+    <p class="zh">鼠标移到屏幕左下角，工作台自动滑出；移开自动隐藏——全程零点击，不占任务栏。</p>
+    <p class="en">Hover the bottom-left corner to summon the workspace; move away and it hides — zero-click, no taskbar clutter.</p>
+  </li>
+  <li>
+    <b>卡片换位 · Rearrange Cards</b>
+    <p class="zh">拖动面板标题栏即可与其它面板交换位置，10 秒搭出你的专属版面。</p>
+    <p class="en">Drag a panel's title bar to swap it with another — build your own layout in seconds.</p>
+  </li>
+  <li>
+    <b>秒进分屏 · Instant Split View</b>
+    <p class="zh">在文件夹名称上双击即进入左右分屏，左侧导航、右侧预览，再点左侧退出。</p>
+    <p class="en">Double-click a folder name to enter a side-by-side split (navigate left, preview right); click the left pane to exit.</p>
+  </li>
+  <li>
+    <b>拖拽即复制 / 移动 · Drag to Copy / Move</b>
+    <p class="zh">把文件拖进卡片即复制，跨面板拖拽即移动，免右键、免菜单。</p>
+    <p class="en">Drag a file into a card to copy, or across panels to move — no right-click needed.</p>
+  </li>
+  <li>
+    <b>原生菜单 · Native Context Menu</b>
+    <p class="zh">在文件上右键即唤出系统 Explorer 菜单，所有 Shell 操作一键可达。</p>
+    <p class="en">Right-click any file for the native Explorer menu — every shell action, one gesture away.</p>
+  </li>
+  <li>
+    <b>时光收纳 · TimeCollect</b>
+    <p class="zh">新文件自动按"今天 / 昨天 / 前天 / 近七天 / 早些时候"归集，无需手动建日期文件夹。</p>
+    <p class="en">New files auto-bucket into Today / Yesterday / 2 days ago / Last 7 days / Earlier — no manual date folders.</p>
+  </li>
+  <li>
+    <b>一键换肤 · One-tap Theming</b>
+    <p class="zh">主菜单一键切换深 / 浅主题并记忆偏好，亮屏护眼随心。</p>
+    <p class="en">One tap in the main menu switches dark / light themes and remembers your choice.</p>
+  </li>
+  <li>
+    <b>单选 / 多选 · Single / Multi Select</b>
+    <p class="zh">设置面板切换单文件夹或多文件夹聚合，灵活掌控每个面板显示什么。</p>
+    <p class="en">Toggle single-folder or multi-folder aggregation in settings to control exactly what each panel shows.</p>
+  </li>
 </ul>

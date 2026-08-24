@@ -17,7 +17,9 @@ figcaption { font-size:13px; color:var(--muted); margin-top:8px; text-align:cent
 .tips { list-style:none; padding:0; margin:14px 0 0; counter-reset: tip; }
 .tips li { position:relative; padding:12px 14px 12px 48px; margin:10px 0; background:var(--card); border:1px solid var(--line); border-radius:12px; }
 .tips li::before { counter-increment: tip; content:counter(tip); position:absolute; left:12px; top:12px; width:24px; height:24px; border-radius:50%; background:var(--brand); color:#fff; font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center; }
-.tips li b { color:var(--brand); }
+.tips li b { display:block; margin-bottom:4px; color:var(--brand); }
+.tips li .zh { margin-top:6px; }
+.tips li .en { margin-top:2px; }
 
 .site-footer { max-width:920px; margin:48px auto 0; padding:18px 22px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; text-align:center; }
 
