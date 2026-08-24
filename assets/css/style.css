@@ -20,6 +20,8 @@ figcaption { font-size:13px; color:var(--muted); margin-top:8px; text-align:cent
 .tips li b { display:block; margin-bottom:4px; color:var(--brand); }
 .tips li .zh { margin-top:6px; }
 .tips li .en { margin-top:2px; }
+.tips li img.tip-gif { float:right; width:200px; max-width:42%; margin:2px 0 8px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; }
+@media (prefers-color-scheme: dark){ .tips li img.tip-gif { border-color:#333; } }
 
 .site-footer { max-width:920px; margin:48px auto 0; padding:18px 22px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; text-align:center; }
 
