@@ -8,6 +8,10 @@ description: >-
   NoviDesk Desktop Workstation (Floating Desktop / XiaoWei Desktop) — official homepage & feature highlights.
 lang: zh-CN
 
+# 项目站点（project site）根路径：GitHub 自动分配为 https://<user>.github.io/<repo>/
+# 必须加这一行，否则 /assets/css/style.css 会指向域名根而 404，页面白屏
+baseurl: /NoviDesk-Docs
+
 # 不使用第三方主题，使用仓库内 _layouts/default.html + assets/css/style.css
 theme: null
 
