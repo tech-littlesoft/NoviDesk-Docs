@@ -1,0 +1,29 @@
+:root { color-scheme: light dark; --brand:#2b6cb0; --brand-soft:#ebf4ff; --ink:#2d3748; --muted:#718096; --line:#e2e8f0; --card:#fff; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system,"Segoe UI","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:#f7fafc; line-height:1.75; }
+.page { max-width: 920px; margin:0 auto; padding:44px 22px 64px; }
+h1 { font-size:30px; line-height:1.3; margin:0 0 6px; }
+h1 .en { display:block; font-size:16px; font-weight:500; color:var(--muted); margin-top:8px; }
+h2 { font-size:22px; margin:48px 0 4px; padding-bottom:8px; border-bottom:2px solid var(--brand); color:var(--brand); }
+h2 .en { display:block; font-size:14px; font-weight:500; color:var(--muted); margin-top:2px; }
+.lead { font-size:16px; color:#4a5568; }
+.zh { margin:12px 0 0; }
+.en { margin:4px 0 0; color:var(--muted); font-size:14px; }
+figure { margin:20px 0 8px; }
+figure img, figure svg { width:100%; height:auto; border:1px solid var(--line); border-radius:14px; background:#fff; display:block; }
+figcaption { font-size:13px; color:var(--muted); margin-top:8px; text-align:center; }
+
+/* 第 8 节：便捷操作指南 */
+.tips { list-style:none; padding:0; margin:14px 0 0; counter-reset: tip; }
+.tips li { position:relative; padding:12px 14px 12px 48px; margin:10px 0; background:var(--card); border:1px solid var(--line); border-radius:12px; }
+.tips li::before { counter-increment: tip; content:counter(tip); position:absolute; left:12px; top:12px; width:24px; height:24px; border-radius:50%; background:var(--brand); color:#fff; font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+.tips li b { color:var(--brand); }
+
+.site-footer { max-width:920px; margin:48px auto 0; padding:18px 22px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; text-align:center; }
+
+@media (prefers-color-scheme: dark) {
+  :root { --ink:#e8e8e8; --muted:#aaa; --line:#333; --card:#1a1a1a; }
+  body { background:#111; }
+  figure img, figure svg { background:#1a1a1a; }
+  .lead, .tips li { color:var(--ink); }
+}

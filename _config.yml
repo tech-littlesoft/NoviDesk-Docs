@@ -1,0 +1,17 @@
+# NoviDesk 官方主页 — GitHub Pages (Jekyll) 配置
+# 直接 push 到 main 分支，由 GitHub Pages 自动用此配置构建并发布。
+# 不使用任何第三方主题与 CDN，全部用仓库内自定义布局/样式，国内可直连。
+
+title: NoviDesk 桌面工作站
+description: >-
+  NoviDesk 桌面工作站（悬浮桌面 / 小维桌面）官方主页与功能亮点介绍。
+  NoviDesk Desktop Workstation (Floating Desktop / XiaoWei Desktop) — official homepage & feature highlights.
+lang: zh-CN
+
+# 不使用第三方主题，使用仓库内 _layouts/default.html + assets/css/style.css
+theme: null
+
+# 发布时排除仓库说明文件（不进入站点）
+exclude:
+  - README.md
+  - LICENSE
