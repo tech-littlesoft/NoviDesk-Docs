@@ -10,15 +10,15 @@ title: NoviDesk 桌面工作站 · 官方主页
 
 <p class="en lead">NoviDesk Desktop Workstation (a.k.a. Floating Desktop / XiaoWei Desktop) is a smart workspace that lives at the edge of your screen. It gathers file management, quick access and time-based filing into a set of floating cards. Hover the bottom-left corner to summon it; move away and it hides itself — no taskbar clutter, no stolen focus, your real desktop stays clean.</p>
 
-## 1. 悬浮桌面
-<span class="en">Floating Desktop</span>
+## 1. 悬浮桌面 · 灵动桌面
+<span class="en">Floating Desktop · Liquid Desktop · Silky Smooth</span>
 
-<p class="zh">把鼠标移到屏幕左下角，工作台从边缘平滑滑出（约 0.5 秒）；移开后自动收回。呼之即出、挥之即去，零点击常驻。</p>
-<p class="en">Move your cursor to the bottom-left corner and the workspace glides out from the edge (~0.5s); move away and it retracts. Summoned on demand, gone when not needed — zero-click, always ready.</p>
+<p class="zh">把鼠标移到屏幕左下角，工作台从边缘平滑滑出（约 0.5 秒）；移开后自动收回。呼之即出、挥之即去，零点击常驻。更支持多显示器，支持多个触发角——每个屏幕、每个边角，都能随你心意呼之即出。</p>
+<p class="en">Move your cursor to the bottom-left corner and the workspace glides out from the edge (~0.5s); move away and it retracts. Summoned on demand, gone when not needed — zero-click, always ready. Multi-monitor and multi-corner aware: every screen, every edge works at your call.</p>
 
 <figure>
-  <img src="assets/img/01-float.svg" alt="悬浮桌面：鼠标移到左下角呼出工作台" />
-  <figcaption>鼠标移到角落 → 工作台从边缘滑出</figcaption>
+  <img src="assets/img/01-float.svg" alt="悬浮桌面：鼠标移到角落呼出工作台" />
+  <figcaption>鼠标移到角落 → 工作台从边缘滑出（支持多显示器 / 多触发角）</figcaption>
 </figure>
 
 ## 2. 卡片面板
